@@ -1,0 +1,29 @@
+echo 'Hello World'
+mkdir new_dir
+rm new_dir
+cp sed.txt ../lorem-copy/
+cp at.txt lorem.txt ../lorem-copy/;
+cat sed.txt
+cat at.txt lorem.txt
+$ head -3 sed.txt
+tail -3 sed.txt
+echo "Homo homini lupus" >> sed.txt
+tail -3 sed.txt
+sed 's/ET/et/' at.txt
+whoami
+pwd
+git ls-files '*.txt'
+cat sed.txt | wc
+git ls-files "./*.txt" | wc -l
+BONUS
+20
+read
+Juan
+21
+echo $REPLY
+Juan
+22
+mkdir $REPLY
+23
+rmdir $REPLY
+
